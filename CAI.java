@@ -6,7 +6,7 @@ import java.security.SecureRandom;
 public class CAI{
 	public static void main(String[] args)
 	{
-		Multiplication question = new Multiplication();
+		Arithmetic question = new Arithmetic();
 		Scanner input = new Scanner(System.in);
 		int value1,level,arithmetic_type;
 		question.DisplayLevelOptions();
@@ -60,7 +60,7 @@ public class CAI{
 	}
 }
 
-class Multiplication
+class Arithmetic
 {
 	private int value1;//instance variable holds the value of the first integer
 	private int value2;//instance variable holds the value of the second integer
